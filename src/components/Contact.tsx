@@ -17,7 +17,7 @@ const Contact = () => {
         });
 
         timeline
-            .from(titleSplit, {
+            .from(titleSplit.words, {
                 opacity: 0, yPercent: 100, stagger: 0.02
             })
             .from('#contact h3, #contact p', {
