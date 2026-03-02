@@ -5,6 +5,7 @@ import Hero from "./components/Hero.tsx";
 import Cocktails from "./components/Cocktails.tsx";
 import About from "./components/About.tsx";
 import Art from "./components/Art.tsx";
+import Menu from "./components/Menu.tsx";
 
 gsap.registerPlugin(ScrollTrigger, SplitText);
 
@@ -16,6 +17,7 @@ const App = () => {
             <Cocktails />
             <About />
             <Art />
+            <Menu />
         </main>
     );
 };
